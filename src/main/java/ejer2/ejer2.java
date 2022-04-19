@@ -33,45 +33,9 @@ public class ejer2 {
         String idFichero = "teclado.txt";
         String texto;
         Scanner teclado = new Scanner(System.in);
-        //ArrayList<String> fichero = new ArrayList<>();
         
         
-        
-//        do {
-//            
-//            System.out.println("Escribe algo");
-//            texto = teclado.next();
-//            
-//            //fichero.add(texto);         //guarda los datos que se dan por pantalla
-//            System.out.println("\n");
-//            
-//        } while (!(texto.equalsIgnoreCase("EOF")));
-        
-        
-//        //muestra los datos que hay en el 
-//        for (String p : fichero) {
-//            System.out.println(p);
-//        }
-        
-        
-        //parte de lo de los ficheros
-                        // creamos flujo que es de la clase BufferedWriter
-//        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))){
-//            
-//            
-//            
-//        } catch (Exception e) {
-//            
-//        }
-        
-        
-        
-        
-        
-        //en vez de crear un arry en el que meter los String, directamente lo escribe
-        
-        
-        
+        //fichero
         try ( BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
             
             do {
