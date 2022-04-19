@@ -17,7 +17,6 @@ public class ejer1Alvaro {
         //creamos array
         int matrizNumeros[][] = {{100, 101, 102, 103}, {200, 201, 202, 203}, {300, 301, 302, 303}, {400, 401, 402, 403}};
 
-        //
         try ( BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
             for (int i = 0; i < matrizNumeros.length; i++) {
                 for (int j = 0; j < matrizNumeros[i].length; j++) {
