@@ -18,11 +18,12 @@ Posibles ejemplos de líneas generadas:
         a;C;T;B;D;s;u;i;w;g
 	Q;w;e;r;t;y;S;H;J;K;G
 
-
 --------------------------------------------------------------------------------
 */
 public class ejer3 {
     public static void main(String[] args) {
-        //abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+        
+        String letras = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        
     }
 }
