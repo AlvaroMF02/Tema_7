@@ -14,9 +14,7 @@ public class ejer4 {
         
        String idFichero="vehiculos.txt";
        ArrayList<Vehiculo> coches = new ArrayList<>();
-       
-       
-       
+
        
        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))){
             
@@ -59,13 +57,13 @@ public class ejer4 {
 
 
 
+            for (int i = 0; i < coches.size(); i++) {
+               flujo.write(coches.get(i).toString()+":");
+               flujo.newLine();
+           }
 
 
-
-
-
-
-             flujo.flush();
+            flujo.flush();
         } catch (IOException e) {
             System.out.println(e.getMessage());
        }

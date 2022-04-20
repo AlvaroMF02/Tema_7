@@ -34,8 +34,8 @@ public class ejer3 {
         String idFichero = "ejer3";    
         
         
-        
-        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))){
+            //no está bien hecho, solo muestr las g
+        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))){     
                 
 
                 do{
@@ -45,12 +45,14 @@ public class ejer3 {
                     
                     if(tmp.equalsIgnoreCase("g")){
                         flujo.write(tmp + ";");
-                    }else{
                         flujo.newLine();
+                    }else{
+                        contador--;
                     }
                     
+                    contador++;
                     
-                }while(contador==75);
+                }while(contador<=75);
                 
 
             flujo.flush();
