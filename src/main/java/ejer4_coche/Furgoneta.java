@@ -25,6 +25,14 @@ public class Furgoneta extends Vehiculo{
         return this.volumen;
     }
 
+    public void setCarga(int carga) {
+        this.carga = carga;
+    }
+
+    public void setVolumen(int volumen) {
+        this.volumen = volumen;
+    }
+
     @Override
     public String getAtributos() {
         return super.getAtributos() + "; " + this.carga
