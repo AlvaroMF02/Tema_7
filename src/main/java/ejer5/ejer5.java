@@ -17,7 +17,7 @@ COPIADO :)
 public class ejer5 {
      public static void main(String[] args) {
         // Fichero a leer con datos de ejemplo
-        String idFichero = "array.txt";
+        String idFichero = "matriz.txt";
 
         // Variables para guardar los datos que se van leyendo
         String[] tokens;
@@ -26,7 +26,7 @@ public class ejer5 {
         int suma = 0;
         int sumaTotal = 0;
 
-        System.out.println("Leyendo el fichero: " + idFichero);
+        System.out.println("Se está leyendo el fichero: " + idFichero + "\n");
 
         // Inicialización del flujo "datosFichero" en función del archivo llamado "idFichero"
         // Estructura try-with-resources. Permite cerrar los recursos una vez finalizadas
