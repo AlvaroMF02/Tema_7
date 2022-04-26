@@ -21,6 +21,10 @@ public class Turismo extends Vehiculo{
         this.puertas = puertas;
         this.marchaAutomatica = marchaAutomatica;
     }
+    
+    public Turismo() {
+
+    }
 
     // Esta clase ahora no implementa métodos aunque hereda los de Vehiculo
     // No implementa constructor, Java creará uno por defecto

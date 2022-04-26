@@ -23,6 +23,10 @@ public class Vehiculo {
         this.disponible = false;
     }
 
+    public Vehiculo() {
+    }
+    
+    
     public Long getBastidor() {
         return bastidor;
     }

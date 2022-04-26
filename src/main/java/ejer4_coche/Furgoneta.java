@@ -15,6 +15,8 @@ public class Furgoneta extends Vehiculo{
         this.carga = carga;
         this.volumen = volumen;
     }
+    public Furgoneta() {
+    }
 // métodos ‘get’ de la subclase Furgoneta. Se omiten setters
 
     public int getCarga() {

@@ -11,6 +11,9 @@ public class Deportivo extends Vehiculo {
         super(bastidor, matricula, marca, modelo, color, tarifa); // Constructor padre
         this.cilindrada = cilindrada;
     }
+    
+    public Deportivo() {
+    }
 // métodos ‘get’ de la subclase Deportivo. Se omiten setters 
 
     public int getCilindrada() {
