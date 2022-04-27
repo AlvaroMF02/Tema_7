@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 /*
-    LEER EL ARCHIVO Y ORDENAR LOS VEHIUCLOS POR MARCA
+    LEER EL ARCHIVO Y ORDENAR LOS VEHICULOS POR MARCA
 */
 
 public class ejer7 {
@@ -33,7 +33,15 @@ public class ejer7 {
 
         //LECTURA DE COCHES
         try (Scanner datosFichero = new Scanner(new File(idFichero))) {
-
+            
+            while(datosFichero.hasNextLine()){
+                linea = datosFichero.nextLine();  //salta de linea
+                tokens = linea.split(":");  //muestra el separador
+ 
+                Vehiculo coche = new Vehiculo();
+                coche.setBastidor(tokens[0]);
+                
+            }
             
 
         } catch (FileNotFoundException e) {
