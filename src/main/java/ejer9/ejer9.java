@@ -17,5 +17,6 @@ cada campo se encuentra en una columna diferente.
 */
 
 public class ejer9 {
+    //leer archivo del ejer 7
     
 }
